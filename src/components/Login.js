@@ -7,7 +7,7 @@ const Login = ({ onLogin }) => {
 
   const handleLogin = () => {
     // Basic authentication (static as of now)
-    if (userId === 'User' && password === 'Password') {
+    if (userId === 'Users' && password === 'Pass123') {
       onLogin();
     } else {
       alert('Invalid credentials');
