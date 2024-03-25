@@ -29,7 +29,7 @@ const App = () => {
   return (
    <div>
       <header>
-        <h1>Task:7 - Back Office Panel</h1>
+        <h1>Back Office Panel</h1>
       </header>
       {!loggedIn ? (
         <Login onLogin={handleLogin} />
